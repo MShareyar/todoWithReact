@@ -1,0 +1,32 @@
+.completed {
+  text-decoration: line-through;
+  color: green;
+}
+
+.TodoItem {
+  width: 30%;
+  margin: 10px auto;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px #ccc;
+  text-align: center;
+  padding: 10px;
+}
+.TodoItem input {
+  float: left;
+}
+
+.TodoItem p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.TodoItem button {
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  float: right;
+  font-size: 14px;
+  color: white;
+  border-radius: 5px;
+}
